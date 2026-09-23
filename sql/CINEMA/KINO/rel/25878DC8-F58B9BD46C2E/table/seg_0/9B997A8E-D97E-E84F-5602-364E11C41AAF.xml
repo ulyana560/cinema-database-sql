@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B997A8E-D97E-E84F-5602-364E11C41AAF" name="BILET">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>517FCED7-A10B-D012-4489-E0021B449292</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BILET_ID" id="26C62721-CD0C-14FF-6BA2-C918DAC4A3DE">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>D3A7C0A3-78CE-5232-BE25-1FDFE46BBB3C</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEANS_ID" id="009EEAF9-9CD4-F47B-595A-92BD82C9D9D2">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>296C8734-1CFE-2B79-74BD-80A57A878BFD</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENT_ID" id="0BFB51F7-9775-7BFA-C78C-699B15750E08">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>2DD1AB3E-0B89-A79B-1FD4-9B9F2AA23C49</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIEJSCE" id="53BCF967-2302-5F1D-FDA5-6650ECFAE9FA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>6DF616D9-6871-CDCF-7820-09BDA100F0EC</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SEANS_ID1" id="A85F2FBE-6DC0-BE16-BB2C-65D183025FFC">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>718EB0E5-4ABF-49C8-02F7-7012CDCEF2EE</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA9BD565-882F-DEAD-3D11-3896FB098FEB" referredColumn="4C5F293E-C723-B935-BC9B-7CA6DF9BC148"/>
+</associations>
+</Column>
+<Column name="KLIENT_ID1" id="D242C8FF-A838-42AB-06AC-49A096153D8F">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>1A705872-122B-7248-0B39-58961C3D275F</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7DA5D377-7AEF-F147-13EC-CA8C8095F721" referredColumn="65740196-4F33-8CDC-B053-F6CFCA5DD73D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="48E44CDB-C195-639D-E4F0-E5FB16DC3C08" name="BILET_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>812BECB1-FD24-401E-8724-07C3F9B0B5A1</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C62721-CD0C-14FF-6BA2-C918DAC4A3DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6A845D1-725D-9DC1-EB79-6A417BA7E598" name="BILET_KLIENT_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>EE5B553C-0E85-0358-054B-D1B20D13818C</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D242C8FF-A838-42AB-06AC-49A096153D8F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C566EF71-A5A3-31A6-AC86-2FC4150A0BE2" name="BILET_SEANS_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>6DC7B04A-52F8-C3CB-E6BA-B76ECB95CF52</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A85F2FBE-6DC0-BE16-BB2C-65D183025FFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

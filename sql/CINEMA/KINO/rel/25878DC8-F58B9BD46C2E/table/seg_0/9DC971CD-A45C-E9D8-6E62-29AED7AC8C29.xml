@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DC971CD-A45C-E9D8-6E62-29AED7AC8C29" name="GATUNEK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>7030D46D-9D7C-050D-80F0-D10B9936CEC5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="GATUNEK_ID" id="8DE931CD-849A-D6B9-0260-9A983FCE1564">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>4B262D04-0EA5-990B-6EF1-B631BAA02457</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWA" id="08A5D02E-35FC-3EBB-408C-E0EA15F78CBD">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>8E5C9448-DF1C-647C-3DDE-4FFC12510E16</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MIASTO" id="3470AA89-B9AF-A623-DE5F-40B759671AF7">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>C4B4A620-5DF3-18D7-3B8B-48DDE7553623</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ULICA" id="87A4BFEB-B7A3-6AE0-B275-BE0E44295E58">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>7BD3C32E-B6ED-641F-9338-4F0ACAACECF9</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D3455EF0-38CB-7C4E-4434-15C61439E9B4" name="GATUNEK_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>1F9010B3-60AA-3BB4-A685-6C90754F4F34</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DE931CD-849A-D6B9-0260-9A983FCE1564"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

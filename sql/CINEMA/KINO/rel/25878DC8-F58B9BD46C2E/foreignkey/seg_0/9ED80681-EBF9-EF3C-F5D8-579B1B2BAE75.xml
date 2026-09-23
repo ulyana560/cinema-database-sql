@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9ED80681-EBF9-EF3C-F5D8-579B1B2BAE75" containerWithKeyObject="1CC43A60-C1BB-7710-E8BD-BEDC217CF7D7" localFKIndex="2EDCA434-2509-6A46-ABF0-8ABC5349E58B" name="PLATNOSC_BILET_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>5BC3F950-354B-DCA8-229E-D5B956D686F5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<referredTableLongName>BILET</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9B997A8E-D97E-E84F-5602-364E11C41AAF</referredTableID>
+<keyObject>48E44CDB-C195-639D-E4F0-E5FB16DC3C08</keyObject>
+<referredKeyID>48E44CDB-C195-639D-E4F0-E5FB16DC3C08</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>BILET_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CC43A60-C1BB-7710-E8BD-BEDC217CF7D7" name="PLATNOSC">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>8C596C9D-2B03-ADCA-BAB7-D1B5E0C74B02</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PLATNOSC_ID" id="A2AA4EB5-E6FF-89B7-4A5C-8C4FEB0A20FB">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>65DA876A-55F4-84BE-E607-262DC943B6E5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILET_ID" id="6AA459B3-7648-2342-267B-2B2D87C91605">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>DB5CDA1D-D7F8-AD20-DF90-FE83E1475FF0</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KWOTA_ID" id="E71A9D9C-7F0B-585D-03ED-04CC2767C955">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>6626B029-428E-CA8D-FD97-CAD3979C1BDF</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="METODA" id="D93A86D7-6569-7F2A-54D3-54D2CC1858D0">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>60BAAC69-804F-AC77-4E5E-AD5599AAF219</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_PLATNOSCI" id="F1E49E25-E486-58A0-13ED-54E03A38057B">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>B5D8CFA9-4AD4-8822-27A4-9C72DE565835</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BILET_ID1" id="4BAA2A8B-36EF-D180-B43F-320A06D3CB55">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>F46C9579-A172-AC94-F4F7-E20AAA04925A</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9ED80681-EBF9-EF3C-F5D8-579B1B2BAE75" referredColumn="26C62721-CD0C-14FF-6BA2-C918DAC4A3DE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84D6B2BC-7664-3DEC-62DD-7D31025C466F" name="PLATNOSC_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>28B24290-D056-FB2F-866D-794A91FFDCAE</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2AA4EB5-E6FF-89B7-4A5C-8C4FEB0A20FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97ED147C-46DC-D165-9436-DE119B8F4E7C" name="PLATNOSC__IDX">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5BC3F950-354B-DCA8-229E-D5B956D686F5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4BAA2A8B-36EF-D180-B43F-320A06D3CB55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EDCA434-2509-6A46-ABF0-8ABC5349E58B" name="PLATNOSC_BILET_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>5BC3F950-354B-DCA8-229E-D5B956D686F5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4BAA2A8B-36EF-D180-B43F-320A06D3CB55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

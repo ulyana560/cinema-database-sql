@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7BC7A196-7746-2E38-CADA-6DBA396C18B6" name="KINO">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:09:28 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="KINO_ID" id="E1582CD4-0D17-E223-30FE-A0AFACA0D9FB">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:09:41 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NAZWA" id="4131EC6D-C57F-E7D9-D82C-2BF27FD1A42E">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:12:09 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIASTO" id="9356AF11-9D6F-E3BB-3584-EF2192AB9E2E">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:12:36 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ULICA" id="EE0C7C7E-0BFE-DB0A-B969-C39D9F47852A">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:13:02 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D5CF42C-B771-E5C5-BA3A-C0A1995D197C" name="KINO PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:09:52 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E1582CD4-0D17-E223-30FE-A0AFACA0D9FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

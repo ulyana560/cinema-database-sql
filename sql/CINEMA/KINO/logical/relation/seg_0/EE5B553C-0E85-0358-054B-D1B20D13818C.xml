@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="EE5B553C-0E85-0358-054B-D1B20D13818C">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 13:11:12 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<sourcePk>A2A01CAE-A841-84BC-7666-BE32FC6EEE67</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>kupuje</nameOnSource>
+<nameOnTarget>nalezy do</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5717BDB1-5D0D-717B-0655-1BAA94A99D98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>517FCED7-A10B-D012-4489-E0021B449292</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

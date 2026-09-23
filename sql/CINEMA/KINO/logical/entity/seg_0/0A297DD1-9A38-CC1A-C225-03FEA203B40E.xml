@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0A297DD1-9A38-CC1A-C225-03FEA203B40E" name="SALA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:20:11 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SALA_ID" id="F9E3B438-598C-9C1F-29EC-9104B02F3E5D">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:20:27 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KINO_ID" id="21468F9E-8C57-6297-44FA-AAA49BED74CC">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:20:59 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUMBER" id="2B16082F-D11C-0D4E-2066-C94159953E38">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:23:04 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LICZBA_MIEJSC" id="7CD3F21D-01CF-708B-9581-8E225F97973C">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:21:43 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KINO_ID1" id="7AAA0396-4EC8-FC3F-9BFA-E03892A67310">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:49:48 UTC</createdTime>
+<generatorID>DD5A8B44-3087-F5CE-15DA-041AA9EA5A35</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>E1582CD4-0D17-E223-30FE-A0AFACA0D9FB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3991D9B4-0AB6-0368-6D5D-02C4646ACCC4" name="SALA PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:20:36 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F9E3B438-598C-9C1F-29EC-9104B02F3E5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

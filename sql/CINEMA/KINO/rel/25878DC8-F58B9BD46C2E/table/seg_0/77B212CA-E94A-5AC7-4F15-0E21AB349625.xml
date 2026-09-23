@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77B212CA-E94A-5AC7-4F15-0E21AB349625" name="KLIENT">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>5717BDB1-5D0D-717B-0655-1BAA94A99D98</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KLIENT_ID" id="65740196-4F33-8CDC-B053-F6CFCA5DD73D">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>9D4B5523-6CB9-61A2-A4CB-EE5C4A282B7D</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMIE" id="4D28069F-A140-6C53-4AB9-8FB130A49727">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>A35068A6-48AA-F651-9C16-E254BB92E1CE</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAZWISKO" id="E12D86B3-17CC-A8BE-7590-78D6F1418E8C">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>7DA47D8C-76A2-92DF-5AD3-08122A9FC6F7</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFON" id="475D3D27-59E6-A266-513F-C159E210F875">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>C86FE393-A128-C2EC-56C3-8AFBEBB5F646</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FC2B9DF0-3FC5-D86A-89E7-B4572FCEE4B4" name="KLIENT_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>A2A01CAE-A841-84BC-7666-BE32FC6EEE67</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65740196-4F33-8CDC-B053-F6CFCA5DD73D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFA7B171-828E-AB55-52B0-517931F6F6E3" name="SEANS">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>92B5D5CE-A726-D1DF-26C4-DAEE1CDFB2FF</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SEANS_ID" id="4C5F293E-C723-B935-BC9B-7CA6DF9BC148">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>310890C6-FA2B-1BF5-ACF7-CCCD3E856B60</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILM_ID" id="3ED00B03-0268-1A4A-CC4D-592AC6484AFA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>60FA424F-E459-65AD-F036-469A0909734B</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALA_ID" id="AB762C92-3B73-2007-B327-34D65A39CF2E">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>F6155884-C6A2-6926-858D-AEBE99F36D30</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_SEANSU" id="E1DB138B-2187-0120-5C8D-F28DF410B23E">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>80CF1591-E94C-916A-2CFC-ED3DE4A224EC</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CENA" id="3F561A83-C77A-6539-BCE7-81A3F409CD63">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>F0223908-D197-BD1E-30B2-CF95B1BB97DA</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILM_ID1" id="C9168632-D479-A2F3-8B5B-464A4371161F">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>7DE097DE-60E6-0317-8AFB-929FDCB8B850</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6CAB7D81-D6FD-1E5F-5FC4-2A578FED6F2F" referredColumn="2505F7EF-09DA-2880-D331-2FDFEBDFB410"/>
+</associations>
+</Column>
+<Column name="SALA_ID1" id="FC193588-54E7-369B-8EC1-E6537379DC95">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>86A22068-CA23-26F0-4982-E3BA40B11679</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A9D099B-8C9D-FF6C-3338-7CF66B9C5D15" referredColumn="2BE96ECA-B0AF-0C81-7A8B-53D9BEBA947B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="09B3C555-86C5-091C-A29F-554CA18D2311" name="SEANS_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>74AD698C-8B96-C8AC-E7B9-6D724DB3F544</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C5F293E-C723-B935-BC9B-7CA6DF9BC148"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="25ED9891-BBBC-B7F1-0A71-A813136E333D" name="SEANS_FILM_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>A709F7B3-A989-B59D-2EC2-6F6DFACA384C</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9168632-D479-A2F3-8B5B-464A4371161F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1FAE1261-CF15-5C63-DD1C-E37829F48F31" name="SEANS_SALA_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>0F1DD756-03AF-1374-C213-33A25008F985</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC193588-54E7-369B-8EC1-E6537379DC95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

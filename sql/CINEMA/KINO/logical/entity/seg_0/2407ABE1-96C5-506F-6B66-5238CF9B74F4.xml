@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2407ABE1-96C5-506F-6B66-5238CF9B74F4" name="FILM_GATUNEK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:32:48 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FILM" id="CBFD1C2E-9113-8A8A-0B82-B9DEC55A99D9">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:33:02 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_GATUNEK" id="B8EB9DC2-BC36-E6EF-0A76-F3F5B02497CA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:33:46 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FILM_ID1" id="A7854B31-D34B-5663-C8C8-53F96D4E40C5">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:47:24 UTC</createdTime>
+<generatorID>D02413D6-396A-E6D4-259F-D878410CBFBA</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>B26E5141-5C5C-FBE6-BA41-45F91CD79054</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GATUNEK_ID1" id="62781062-AA30-2479-1393-205C6261B9C0">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:47:40 UTC</createdTime>
+<generatorID>73995931-07DB-CDB1-4B17-6611D212C1FD</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>4B262D04-0EA5-990B-6EF1-B631BAA02457</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32D6746B-96F7-E30B-E3EA-8FE6CA4DE4E6" name="FILM_GATUNEK PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 12:33:13 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CBFD1C2E-9113-8A8A-0B82-B9DEC55A99D9</attributeRef>
+<attributeRef>B8EB9DC2-BC36-E6EF-0A76-F3F5B02497CA</attributeRef>
+<attributeRef>A7854B31-D34B-5663-C8C8-53F96D4E40C5</attributeRef>
+<attributeRef>62781062-AA30-2479-1393-205C6261B9C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

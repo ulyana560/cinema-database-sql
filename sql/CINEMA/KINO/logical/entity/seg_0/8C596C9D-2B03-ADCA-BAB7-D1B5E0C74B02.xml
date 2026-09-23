@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C596C9D-2B03-ADCA-BAB7-D1B5E0C74B02" name="PLATNOSC">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:50:45 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="PLATNOSC_ID" id="65DA876A-55F4-84BE-E607-262DC943B6E5">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:50:58 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILET_ID" id="DB5CDA1D-D7F8-AD20-DF90-FE83E1475FF0">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:51:50 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KWOTA_ID" id="6626B029-428E-CA8D-FD97-CAD3979C1BDF">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:52:08 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="METODA" id="60BAAC69-804F-AC77-4E5E-AD5599AAF219">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:52:28 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_PLATNOSCI" id="B5D8CFA9-4AD4-8822-27A4-9C72DE565835">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:52:53 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BILET_ID1" id="F46C9579-A172-AC94-F4F7-E20AAA04925A">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 13:17:11 UTC</createdTime>
+<generatorID>5BC3F950-354B-DCA8-229E-D5B956D686F5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>D3A7C0A3-78CE-5232-BE25-1FDFE46BBB3C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="28B24290-D056-FB2F-866D-794A91FFDCAE" name="PLATNOSC PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:51:16 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65DA876A-55F4-84BE-E607-262DC943B6E5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

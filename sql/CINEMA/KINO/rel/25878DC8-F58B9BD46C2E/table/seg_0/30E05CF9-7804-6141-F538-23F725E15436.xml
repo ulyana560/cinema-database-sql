@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="30E05CF9-7804-6141-F538-23F725E15436" name="SALA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>0A297DD1-9A38-CC1A-C225-03FEA203B40E</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SALA_ID" id="2BE96ECA-B0AF-0C81-7A8B-53D9BEBA947B">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>F9E3B438-598C-9C1F-29EC-9104B02F3E5D</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KINO_ID" id="4C5ABC18-EFB8-EC5F-306B-42B85BDB513E">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>21468F9E-8C57-6297-44FA-AAA49BED74CC</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUMBER" id="79FB1119-3577-BF94-8623-585D3DACF029">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>2B16082F-D11C-0D4E-2066-C94159953E38</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LICZBA_MIEJSC" id="2C6D8C09-6983-D97B-707F-1C987ECE0BEA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>7CD3F21D-01CF-708B-9581-8E225F97973C</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KINO_ID1" id="BA14E817-3D11-B824-D3B4-A88F88DE4F44">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>7AAA0396-4EC8-FC3F-9BFA-E03892A67310</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FD80DEE-6453-5C82-FCAA-81F88824B887" referredColumn="B14FFAD9-7D38-460B-758F-4C1B56F6A158"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2CDDF230-690F-039C-D3B4-2691F24A4DD2" name="SALA_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>3991D9B4-0AB6-0368-6D5D-02C4646ACCC4</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2BE96ECA-B0AF-0C81-7A8B-53D9BEBA947B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="899C2D0C-C8C0-B9CF-920F-69AF38FD006F" name="SALA_KINO_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>DD5A8B44-3087-F5CE-15DA-041AA9EA5A35</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA14E817-3D11-B824-D3B4-A88F88DE4F44"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

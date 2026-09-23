@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD757E55-4E97-2D6F-1FCF-DDD0B6BE1512" containerWithKeyObject="B8F85E87-5C92-146A-5B1D-6FFD3DF323CD" localFKIndex="3000D1BD-9A12-A8F0-4D23-8DCE1EF56904" name="FILM_GATUNEK_GATUNEK_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>73995931-07DB-CDB1-4B17-6611D212C1FD</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<referredTableLongName>GATUNEK</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DC971CD-A45C-E9D8-6E62-29AED7AC8C29</referredTableID>
+<keyObject>D3455EF0-38CB-7C4E-4434-15C61439E9B4</keyObject>
+<referredKeyID>D3455EF0-38CB-7C4E-4434-15C61439E9B4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>GATUNEK_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

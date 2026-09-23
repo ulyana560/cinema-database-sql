@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="92B5D5CE-A726-D1DF-26C4-DAEE1CDFB2FF" name="SEANS">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:24:21 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SEANS_ID" id="310890C6-FA2B-1BF5-ACF7-CCCD3E856B60">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:29:11 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FILM_ID" id="60FA424F-E459-65AD-F036-469A0909734B">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:29:51 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALA_ID" id="F6155884-C6A2-6926-858D-AEBE99F36D30">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:30:09 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_SEANSU" id="80CF1591-E94C-916A-2CFC-ED3DE4A224EC">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:45:00 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CENA" id="F0223908-D197-BD1E-30B2-CF95B1BB97DA">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:45:40 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FILM_ID1" id="7DE097DE-60E6-0317-8AFB-929FDCB8B850">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 13:08:56 UTC</createdTime>
+<generatorID>A709F7B3-A989-B59D-2EC2-6F6DFACA384C</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>B26E5141-5C5C-FBE6-BA41-45F91CD79054</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALA_ID1" id="86A22068-CA23-26F0-4982-E3BA40B11679">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 13:09:49 UTC</createdTime>
+<generatorID>0F1DD756-03AF-1374-C213-33A25008F985</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>F9E3B438-598C-9C1F-29EC-9104B02F3E5D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74AD698C-8B96-C8AC-E7B9-6D724DB3F544" name="SEANS PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:29:38 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>310890C6-FA2B-1BF5-ACF7-CCCD3E856B60</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

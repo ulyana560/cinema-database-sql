@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF09361C-70B6-5820-43A9-0BF6F48D1455" name="KONTO">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>4BB26DFD-54F3-56B9-B946-0AEF15B8A4DF</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KONTO_ID" id="99E5F664-E0B8-F94B-3915-18D4430C1481">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>6BD6A56C-6999-B26D-1108-13DFE3C9F96A</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENT_ID" id="0392CF79-A9F6-6D89-985A-4E1F615E068D">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>5D43C03B-AF50-20A6-EC96-8428C4890F80</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_URODZENIA" id="2A9F234C-BBEB-F4E0-6A7B-35E94F4638C5">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>1BB5DD38-77C3-E88E-1737-8376EAB846D5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="STATUS" id="7718BF60-E18C-69E1-2A26-81DDC7E533BE">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>4029D089-E625-A62D-1AD1-13835AAC48D8</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="KLIENT_ID1" id="8A2DBCFD-62DE-3A15-0AF1-F7F7E223E24B">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>5DBB3FEE-708A-23C2-E70B-2C07C2FBEDA4</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94C36AAA-636B-DCB6-149A-53773FA14993" referredColumn="65740196-4F33-8CDC-B053-F6CFCA5DD73D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC18E2AC-B930-9859-D4CF-E43F8AF4BB23" name="KONTO_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>77851F9B-5A66-BEA6-7798-BD87F222A0BE</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99E5F664-E0B8-F94B-3915-18D4430C1481"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51DE4DEA-DDFC-041D-B2B9-C6B70DDB8849" name="KONTO__IDX">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>91701C55-8D69-A561-BBB7-506B3C428E2A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8A2DBCFD-62DE-3A15-0AF1-F7F7E223E24B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A58E5AE-8FCA-F456-5D02-D79BF0040934" name="KONTO_KLIENT_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>91701C55-8D69-A561-BBB7-506B3C428E2A</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A2DBCFD-62DE-3A15-0AF1-F7F7E223E24B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

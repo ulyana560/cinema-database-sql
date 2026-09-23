@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="517FCED7-A10B-D012-4489-E0021B449292" name="BILET">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:48:39 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="BILET_ID" id="D3A7C0A3-78CE-5232-BE25-1FDFE46BBB3C">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:48:49 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEANS_ID" id="296C8734-1CFE-2B79-74BD-80A57A878BFD">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:49:16 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLIENT_ID" id="2DD1AB3E-0B89-A79B-1FD4-9B9F2AA23C49">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:49:40 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MIEJSCE" id="6DF616D9-6871-CDCF-7820-09BDA100F0EC">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:50:01 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SEANS_ID1" id="718EB0E5-4ABF-49C8-02F7-7012CDCEF2EE">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 13:10:32 UTC</createdTime>
+<generatorID>6DC7B04A-52F8-C3CB-E6BA-B76ECB95CF52</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>310890C6-FA2B-1BF5-ACF7-CCCD3E856B60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KLIENT_ID1" id="1A705872-122B-7248-0B39-58961C3D275F">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 13:11:12 UTC</createdTime>
+<generatorID>EE5B553C-0E85-0358-054B-D1B20D13818C</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="true"/>
+</engineerTo>
+<referedAttribute>9D4B5523-6CB9-61A2-A4CB-EE5C4A282B7D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="812BECB1-FD24-401E-8724-07C3F9B0B5A1" name="BILET PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 11:48:59 UTC</createdTime>
+<ownerDesignName>KINO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="25878DC8-4DE2-4D27-2881-F58B9BD46C2E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D3A7C0A3-78CE-5232-BE25-1FDFE46BBB3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

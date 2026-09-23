@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B8F85E87-5C92-146A-5B1D-6FFD3DF323CD" name="FILM_GATUNEK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>2407ABE1-96C5-506F-6B66-5238CF9B74F4</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FILM" id="E6A344E9-100F-3032-3C27-A53EA5B24D77">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>CBFD1C2E-9113-8A8A-0B82-B9DEC55A99D9</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_GATUNEK" id="7B9989FD-4C2C-8603-D555-CDEE51692D78">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>B8EB9DC2-BC36-E6EF-0A76-F3F5B02497CA</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FILM_ID1" id="385501CE-F582-077C-9DAE-A8D228928120">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>A7854B31-D34B-5663-C8C8-53F96D4E40C5</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="505D2BD2-1CDE-BB7C-B96E-27357D43A25D" referredColumn="2505F7EF-09DA-2880-D331-2FDFEBDFB410"/>
+</associations>
+</Column>
+<Column name="GATUNEK_ID1" id="38BF5078-DB14-D957-A3B9-2D1034D0F29E">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-26 08:53:27 UTC</createdTime>
+<generatorID>62781062-AA30-2479-1393-205C6261B9C0</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD757E55-4E97-2D6F-1FCF-DDD0B6BE1512" referredColumn="8DE931CD-849A-D6B9-0260-9A983FCE1564"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83E532E1-0B51-B84D-4517-E064E0F244CF" name="FILM_GATUNEK_PK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:05 UTC</createdTime>
+<generatorID>32D6746B-96F7-E30B-E3EA-8FE6CA4DE4E6</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6A344E9-100F-3032-3C27-A53EA5B24D77"/>
+<colUsage columnID="7B9989FD-4C2C-8603-D555-CDEE51692D78"/>
+<colUsage columnID="385501CE-F582-077C-9DAE-A8D228928120"/>
+<colUsage columnID="38BF5078-DB14-D957-A3B9-2D1034D0F29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A6D61F6-6C10-2BE6-3E77-85F0646C8170" name="FILM_GATUNEK_FILM_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>D02413D6-396A-E6D4-259F-D878410CBFBA</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="385501CE-F582-077C-9DAE-A8D228928120"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3000D1BD-9A12-A8F0-4D23-8DCE1EF56904" name="FILM_GATUNEK_GATUNEK_FK">
+<createdBy>2005z</createdBy>
+<createdTime>2026-01-25 18:52:06 UTC</createdTime>
+<generatorID>73995931-07DB-CDB1-4B17-6611D212C1FD</generatorID>
+<ownerDesignName>KINO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38BF5078-DB14-D957-A3B9-2D1034D0F29E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
